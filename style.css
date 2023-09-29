@@ -18,7 +18,7 @@
     display: flex;
  align-items: center;
  justify-content: center;
- transition: right 0.5s;
+ transition: right 0.10s;
 }
 .searchSidebar{
     width: 100vw;
