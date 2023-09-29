@@ -1,0 +1,33 @@
+.category-navigation li {
+    flex: 0 0 max-content;
+}
+.mobileSidebar {
+ width: 100vw;
+ height: 100vh;
+ position: absolute;
+ top: 0;
+ right: -100%;
+ background-color:#ccd8dd;
+ display: none;
+ z-index: 999;
+
+ 
+}
+.activeSidebar {
+    right:0;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: right 0.5s;
+}
+.searchSidebar{
+    width: 100vw;
+    height: 50vh;
+    background-color:#ccd8dd;
+    position: absolute;
+    top: -100%; left: 0;
+    display: flex; align-items: center; justify-content: center;
+}
+.activeSearchbar{
+    top: 0;
+}
